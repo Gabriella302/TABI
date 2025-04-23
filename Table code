@@ -1,0 +1,18 @@
+
+# importing a library
+import pandas as pd
+
+
+
+#create table with headings and format
+TABI = pd.DataFrame ({
+    "Sainsburys sortcode": pd.Series( dtype = "int8"),
+    "Sainburys account num": pd.Series (dtype = "int8"),
+    "Sainsburys product type": pd.Series (dtype = "string"),
+    "Natwest sortcode":  pd.Series( dtype = "int8"),
+    Natwest account num": pd.Series( dtype = "int8"),
+    Natwest product type": pd.Series( dtype = "string")
+})
+
+
+### 
