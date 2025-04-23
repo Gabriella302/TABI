@@ -15,4 +15,15 @@ TABI = pd.DataFrame ({
 })
 
 
-### 
+### SQL
+
+CREATE TABLE TABI (
+    Sainsburys_sortcode INT NOT NULL,
+    Sainsburys_account_num INT NOT NULL,
+    Sainsburys_product_type VARCHAR(50) NOT NULL,
+    Natwest_sortcode INT,
+    Natwest_account_num INT,
+    Natwest_product_type VARCHAR(50)
+);
+
+
