@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Interface</title>
+<style>
+    table, th, td {
+      border: 5px solid white;
+      border-collapse: collapse;
+      background-color: #bd0ff1;
+    }
+    th, td {
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <label><input type="radio" name="transfer" value="sainsburys-to-natwest"> Sainsbury's to NatWest</label><br>
+            <label><input type="radio" name="transfer" value="natwest-to-sainsburys"> NatWest to Sainsbury's</label><br><br>
+
+            <input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
+            <button type="button">Search</button>
+        </form>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Input Sort Code / Account Number</th>
+                        <th>Retrieved Account Number</th>
+                        <th>Retrieved Sort Code</th>
+                        <th>Retrieved Product Type</th>
+                        <th>Debit Card Issued (Y/N)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button">Generate Report</button>
+    </div>
+</body>
+</html>
