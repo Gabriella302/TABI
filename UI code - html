@@ -33,7 +33,7 @@
                         <th>Retrieved Account Number</th>
                         <th>Retrieved Sort Code</th>
                         <th>Retrieved Product Type</th>
-                        <th>Debit Card Issued (Y/N)</th>
+                       
                     </tr>
                 </thead>
                 <tbody>
@@ -42,7 +42,7 @@
                         <td>XXX</td>
                         <td>XXX</td>
                         <td>XXX</td>
-                        <td>XXX</td>
+                        
                     </tr>
                 </tbody>
             </table>
