@@ -1,0 +1,9 @@
+CREATE TABLE cross_reference_table (
+  sainsburys_product_type VARCHAR(100)
+  sainsburys_account_number VARCHAR(20)
+  sainsburys_sort_code VARCHAR(10)
+  natwest_product_type VARCHAR(100)
+  natwest_account_number VARCHAR(20)
+  natwest_sort_code VARCHAR(10)
+  PRIMARY KEY (sainburys_sort_code, sainsburys~_account_number)
+  );
