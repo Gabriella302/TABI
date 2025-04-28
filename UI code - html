@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><h1>TABI</h1>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banking Interface</title>
+    <title>TABi</title>
 <style>
     table, th, td {
       border: 2px solid white;
+      border-radius: 25px;
       border-collapse: collapse;
       background-color: #aeacaf;
-    }
-    th, td {
-  text-align: left;
-  padding: 8px;
+      text-align: left;
+      padding: 8px;
+   
     }
     </style>
 </head>
 <body>
     <div class="container">
         <form action="#">
-            <label><input type="radio" name="transfer" value="sainsburys-to-natwest"> Sainsbury's to NatWest</label><br>
-            <label><input type="radio" name="transfer" value="natwest-to-sainsburys"> NatWest to Sainsbury's</label><br><br>
+            
 
-         <h1 style="text-align:right;"><input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
+            <h1 style="text-align:center;"><input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
             <button type="button">Search</button></h1>
         </form>
 
         <div class="table-container">
-            <table>
+            <h2 style="text-align:center;"><table>
                 <thead>
                     <tr>
                         <th>Input Sort Code / Account Number</th>
@@ -44,11 +43,17 @@
                         <td>XXX</td>
                         <td>XXX</td>
                         </tr>
+<tr>
+  <td>xxxx</td>
+  <td>xxxx</td>
+  <td>xxxx</td>
+  <td>xxxx</td>
+</tr>
                 </tbody>
-            </table>
+            </table></h2>
         </div>
-<h1 style="text-align:right;"><button type="button">Generate Report</button></h1>
-        
+
+        <h1 style="text-align:center;"><button type="button">Generate Report</button></h1>
     </div>
 </body>
 </html>
