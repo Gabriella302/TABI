@@ -19,7 +19,8 @@
 <body>
     <div class="container">
         <form action="#">
-            
+            <label><input type="radio" name="transfer" value="sainsburys-to-natwest"> Sainsbury's to NatWest</label><br>
+            <label><input type="radio" name="transfer" value="natwest-to-sainsburys"> NatWest to Sainsbury's</label><br><br>
 <h1 style="text-align:center;">TABI</h1>
 
             <h1 style="text-align:center;"><input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
@@ -58,4 +59,3 @@
     </div>
 </body>
 </html>
-
