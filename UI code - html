@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TABI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TABI</title>
 <style>
     table, th, td {
       border: 2px solid white;
@@ -12,50 +12,49 @@
       background-color: #aeacaf;
       text-align: left;
       padding: 8px;
-   
     }
-    </style>
+</style>
 </head>
 <body>
-    <div class="container">
-        <form action="#">
-            <label><input type="radio" name="transfer" value="sainsburys-to-natwest"> Sainsbury's to NatWest</label><br>
-            <label><input type="radio" name="transfer" value="natwest-to-sainsburys"> NatWest to Sainsbury's</label><br><br>
+<div class="container">
+<form action="#"><p style="text-align:right;"><label><input>Fields marked with * are mandatory</p>
+<label><input type="radio" name="transfer" value="sainsburys-to-natwest"> Sainsbury's to NatWest</label><br>
+<label><input type="radio" name="transfer" value="natwest-to-sainsburys"> NatWest to Sainsbury's</label><br><br> 
+
 <h1 style="text-align:center;">TABI</h1>
-
-            <h1 style="text-align:center;"><input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
-            <button type="button">Search</button></h1>
-        </form>
-
-        <div class="table-container">
-            <h2 style="text-align:center;"><table>
-                <thead>
-                    <tr>
-                        <th>Input Sort Code / Account Number</th>
-                        <th>Retrieved Account Number</th>
-                        <th>Retrieved Sort Code</th>
-                        <th>Retrieved Product Type</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>XXX</td>
-                        <td>XXX</td>
-                        <td>XXX</td>
-                        <td>XXX</td>
-                        </tr>
+ 
+            <h1 style="text-align:center;"><input type="text" class="search-box" placeholder="Enter Sainsbury's / NatWest Account Number">
+<button type="button">Search</button></h1>
+</form>
+ 
+        <div class="table-container">
+<h3 style="text-align:center;"><table>
+<thead>
 <tr>
-  <td>xxxx</td>
-  <td>xxxx</td>
-  <td>xxxx</td>
-  <td>xxxx</td>
+<th>Input Sort Code / Account Number</th>
+<th>Retrieved Account Number</th>
+<th>Retrieved Sort Code</th>
+<th>Retrieved Product Type</th>
 </tr>
-                </tbody>
-            </table></h2>
-        </div>
-
-        <h1 style="text-align:center;"><button type="button">Generate Report</button></h1>
-    </div>
+</thead>
+<tbody>
+<tr>
+<td>XXX</td>
+<td>XXX</td>
+<td>XXX</td>
+<td>XXX</td>
+</tr>
+<tr>
+<td>xxxx</td>
+<td>xxxx</td>
+<td>xxxx</td>
+<td>xxxx</td>
+</tr>
+</tbody>
+</table></h3>
+</div>
+ 
+        <h1 style="text-align:center;"><button type="button">Generate Report</button></h1>
+</div>
 </body>
 </html>
